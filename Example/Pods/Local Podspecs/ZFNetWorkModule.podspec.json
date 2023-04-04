@@ -1,0 +1,35 @@
+{
+  "name": "ZFNetWorkModule",
+  "version": "0.0.1",
+  "summary": "A short description of NetWorkModule.",
+  "homepage": "https://github.com/SuperHaiFeng/ZFNetWorkModule",
+  "license": {
+    "type": "MIT License",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Macoming": "zhangzhifang1013@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/SuperHaiFeng/ZFNetWorkModule.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "ZFNetWorkModule/Classes",
+    "ZFNetWorkModule/Classes/**/*"
+  ],
+  "dependencies": {
+    "ZFCommonModule": [
+      "~> 0.0.3"
+    ],
+    "Alamofire": [
+
+    ],
+    "HandyJSON": [
+
+    ]
+  }
+}

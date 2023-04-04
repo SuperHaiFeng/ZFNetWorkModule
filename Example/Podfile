@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/SuperHaiFeng/ZFspecs.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZFNetWorkModule_Example' do
+  pod 'ZFNetWorkModule', :path => '../'
+
+  target 'ZFNetWorkModule_Tests' do
+    inherit! :search_paths
+
+  end
+end

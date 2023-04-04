@@ -1,0 +1,6 @@
+framework module ZFNetWorkModule {
+  umbrella header "ZFNetWorkModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
